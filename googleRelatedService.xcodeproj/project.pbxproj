@@ -3,40 +3,129 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4949532B2785C45900231621 /* searchPlayListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949532A2785C45900231621 /* searchPlayListResponse.swift */; };
+		4949532F2785C54B00231621 /* searchVideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949532E2785C54B00231621 /* searchVideoRow.swift */; };
+		494953332785C59E00231621 /* searchVideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494953322785C59E00231621 /* searchVideoDetail.swift */; };
+		494953372785C72E00231621 /* searchVideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494953362785C72E00231621 /* searchVideoList.swift */; };
+		4949533B2785C95600231621 /* searchVideoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949533A2785C95600231621 /* searchVideoListViewModel.swift */; };
+		495F0037277C37D60044F65D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495F0036277C37D60044F65D /* WidgetKit.framework */; };
+		495F0039277C37D60044F65D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495F0038277C37D60044F65D /* SwiftUI.framework */; };
+		495F003C277C37D60044F65D /* googleWigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F003B277C37D60044F65D /* googleWigit.swift */; };
+		495F003E277C37DF0044F65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495F003D277C37DF0044F65D /* Assets.xcassets */; };
+		495F0042277C37DF0044F65D /* googleWigitExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 495F0034277C37D60044F65D /* googleWigitExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		498A48012779AD8C001AC647 /* googleRelatedServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A48002779AD8C001AC647 /* googleRelatedServiceApp.swift */; };
 		498A48032779AD8C001AC647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A48022779AD8C001AC647 /* ContentView.swift */; };
 		498A48052779AD96001AC647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498A48042779AD96001AC647 /* Assets.xcassets */; };
 		498A48082779AD96001AC647 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498A48072779AD96001AC647 /* Preview Assets.xcassets */; };
+		499788FC278593610036A566 /* channelIdPlayListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499788FB278593610036A566 /* channelIdPlayListResponse.swift */; };
+		499789022785966A0036A566 /* IdVideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499789012785966A0036A566 /* IdVideoRow.swift */; };
+		49978908278596C10036A566 /* IdVideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49978907278596C10036A566 /* IdVideoDetail.swift */; };
+		4997890E2785972A0036A566 /* IdVideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997890D2785972A0036A566 /* IdVideoList.swift */; };
+		4997891C27859CB00036A566 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4997891B27859CB00036A566 /* URLImage */; };
+		49F982CD27856FA00084AFB4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F982CC27856FA00084AFB4 /* SearchBar.swift */; };
+		49F982DB27858D230084AFB4 /* IdVideoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F982DA27858D230084AFB4 /* IdVideoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		495F0040277C37DF0044F65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498A47F52779AD8C001AC647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495F0033277C37D60044F65D;
+			remoteInfo = googleWigitExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		495F0043277C37E00044F65D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				495F0042277C37DF0044F65D /* googleWigitExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4949532A2785C45900231621 /* searchPlayListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPlayListResponse.swift; sourceTree = "<group>"; };
+		4949532E2785C54B00231621 /* searchVideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVideoRow.swift; sourceTree = "<group>"; };
+		494953322785C59E00231621 /* searchVideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVideoDetail.swift; sourceTree = "<group>"; };
+		494953362785C72E00231621 /* searchVideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVideoList.swift; sourceTree = "<group>"; };
+		4949533A2785C95600231621 /* searchVideoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVideoListViewModel.swift; sourceTree = "<group>"; };
+		495F0034277C37D60044F65D /* googleWigitExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = googleWigitExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F0036277C37D60044F65D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		495F0038277C37D60044F65D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		495F003B277C37D60044F65D /* googleWigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleWigit.swift; sourceTree = "<group>"; };
+		495F003D277C37DF0044F65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495F003F277C37DF0044F65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		498A47FD2779AD8C001AC647 /* googleRelatedService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleRelatedService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498A48002779AD8C001AC647 /* googleRelatedServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleRelatedServiceApp.swift; sourceTree = "<group>"; };
 		498A48022779AD8C001AC647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		498A48042779AD96001AC647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498A48072779AD96001AC647 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		498A48092779AD96001AC647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499788FB278593610036A566 /* channelIdPlayListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelIdPlayListResponse.swift; sourceTree = "<group>"; };
+		499789012785966A0036A566 /* IdVideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdVideoRow.swift; sourceTree = "<group>"; };
+		49978907278596C10036A566 /* IdVideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdVideoDetail.swift; sourceTree = "<group>"; };
+		4997890D2785972A0036A566 /* IdVideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdVideoList.swift; sourceTree = "<group>"; };
+		49F982CC27856FA00084AFB4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchBar.swift; path = googleRelatedService/models/SearchBar.swift; sourceTree = SOURCE_ROOT; };
+		49F982DA27858D230084AFB4 /* IdVideoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdVideoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		495F0031277C37D60044F65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F0039277C37D60044F65D /* SwiftUI.framework in Frameworks */,
+				495F0037277C37D60044F65D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		498A47FA2779AD8C001AC647 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4997891C27859CB00036A566 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		495F0035277C37D60044F65D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495F0036277C37D60044F65D /* WidgetKit.framework */,
+				495F0038277C37D60044F65D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495F003A277C37D60044F65D /* googleWigit */ = {
+			isa = PBXGroup;
+			children = (
+				495F003B277C37D60044F65D /* googleWigit.swift */,
+				495F003D277C37DF0044F65D /* Assets.xcassets */,
+				495F003F277C37DF0044F65D /* Info.plist */,
+			);
+			path = googleWigit;
+			sourceTree = "<group>";
+		};
 		498A47F42779AD8C001AC647 = {
 			isa = PBXGroup;
 			children = (
 				498A47FF2779AD8C001AC647 /* googleRelatedService */,
+				495F003A277C37D60044F65D /* googleWigit */,
+				495F0035277C37D60044F65D /* Frameworks */,
 				498A47FE2779AD8C001AC647 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				498A47FD2779AD8C001AC647 /* googleRelatedService.app */,
+				495F0034277C37D60044F65D /* googleWigitExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +142,10 @@
 		498A47FF2779AD8C001AC647 /* googleRelatedService */ = {
 			isa = PBXGroup;
 			children = (
+				49BCB4EB277DA84400F0B028 /* view models */,
+				49BCB4EC277DA85D00F0B028 /* models */,
+				49BCB4ED277DA87500F0B028 /* views */,
 				498A48002779AD8C001AC647 /* googleRelatedServiceApp.swift */,
-				498A48022779AD8C001AC647 /* ContentView.swift */,
 				498A48042779AD96001AC647 /* Assets.xcassets */,
 				498A48092779AD96001AC647 /* Info.plist */,
 				498A48062779AD96001AC647 /* Preview Content */,
@@ -69,9 +161,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		49BCB4EB277DA84400F0B028 /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				49F982DA27858D230084AFB4 /* IdVideoListViewModel.swift */,
+				4949533A2785C95600231621 /* searchVideoListViewModel.swift */,
+			);
+			path = "view models";
+			sourceTree = "<group>";
+		};
+		49BCB4EC277DA85D00F0B028 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				499788FB278593610036A566 /* channelIdPlayListResponse.swift */,
+				4949532A2785C45900231621 /* searchPlayListResponse.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		49BCB4ED277DA87500F0B028 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				498A48022779AD8C001AC647 /* ContentView.swift */,
+				49F982CC27856FA00084AFB4 /* SearchBar.swift */,
+				49978907278596C10036A566 /* IdVideoDetail.swift */,
+				499789012785966A0036A566 /* IdVideoRow.swift */,
+				4997890D2785972A0036A566 /* IdVideoList.swift */,
+				4949532E2785C54B00231621 /* searchVideoRow.swift */,
+				494953322785C59E00231621 /* searchVideoDetail.swift */,
+				494953362785C72E00231621 /* searchVideoList.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		495F0033277C37D60044F65D /* googleWigitExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495F0046277C37E00044F65D /* Build configuration list for PBXNativeTarget "googleWigitExtension" */;
+			buildPhases = (
+				495F0030277C37D60044F65D /* Sources */,
+				495F0031277C37D60044F65D /* Frameworks */,
+				495F0032277C37D60044F65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googleWigitExtension;
+			productName = googleWigitExtension;
+			productReference = 495F0034277C37D60044F65D /* googleWigitExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		498A47FC2779AD8C001AC647 /* googleRelatedService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 498A480C2779AD96001AC647 /* Build configuration list for PBXNativeTarget "googleRelatedService" */;
@@ -79,12 +221,17 @@
 				498A47F92779AD8C001AC647 /* Sources */,
 				498A47FA2779AD8C001AC647 /* Frameworks */,
 				498A47FB2779AD8C001AC647 /* Resources */,
+				495F0043277C37E00044F65D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				495F0041277C37DF0044F65D /* PBXTargetDependency */,
 			);
 			name = googleRelatedService;
+			packageProductDependencies = (
+				4997891B27859CB00036A566 /* URLImage */,
+			);
 			productName = googleRelatedService;
 			productReference = 498A47FD2779AD8C001AC647 /* googleRelatedService.app */;
 			productType = "com.apple.product-type.application";
@@ -98,6 +245,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					495F0033277C37D60044F65D = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					498A47FC2779AD8C001AC647 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -112,16 +262,28 @@
 				Base,
 			);
 			mainGroup = 498A47F42779AD8C001AC647;
+			packageReferences = (
+				4997891A27859CB00036A566 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 498A47FE2779AD8C001AC647 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				498A47FC2779AD8C001AC647 /* googleRelatedService */,
+				495F0033277C37D60044F65D /* googleWigitExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		495F0032277C37D60044F65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F003E277C37DF0044F65D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		498A47FB2779AD8C001AC647 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,18 +296,85 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		495F0030277C37D60044F65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F003C277C37D60044F65D /* googleWigit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		498A47F92779AD8C001AC647 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				498A48032779AD8C001AC647 /* ContentView.swift in Sources */,
+				4997890E2785972A0036A566 /* IdVideoList.swift in Sources */,
+				499788FC278593610036A566 /* channelIdPlayListResponse.swift in Sources */,
+				494953332785C59E00231621 /* searchVideoDetail.swift in Sources */,
+				49F982DB27858D230084AFB4 /* IdVideoListViewModel.swift in Sources */,
+				494953372785C72E00231621 /* searchVideoList.swift in Sources */,
+				49F982CD27856FA00084AFB4 /* SearchBar.swift in Sources */,
+				499789022785966A0036A566 /* IdVideoRow.swift in Sources */,
+				4949533B2785C95600231621 /* searchVideoListViewModel.swift in Sources */,
+				4949532F2785C54B00231621 /* searchVideoRow.swift in Sources */,
 				498A48012779AD8C001AC647 /* googleRelatedServiceApp.swift in Sources */,
+				4949532B2785C45900231621 /* searchPlayListResponse.swift in Sources */,
+				49978908278596C10036A566 /* IdVideoDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		495F0041277C37DF0044F65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495F0033277C37D60044F65D /* googleWigitExtension */;
+			targetProxy = 495F0040277C37DF0044F65D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		495F0044277C37E00044F65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = googleWigit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.com.googleRelatedService.googleWigit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		495F0045277C37E00044F65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = googleWigit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leo.com.googleRelatedService.googleWigit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		498A480A2779AD96001AC647 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -265,6 +494,7 @@
 		498A480D2779AD96001AC647 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +516,7 @@
 		498A480E2779AD96001AC647 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +538,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		495F0046277C37E00044F65D /* Build configuration list for PBXNativeTarget "googleWigitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F0044277C37E00044F65D /* Debug */,
+				495F0045277C37E00044F65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		498A47F82779AD8C001AC647 /* Build configuration list for PBXProject "googleRelatedService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -326,6 +566,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4997891A27859CB00036A566 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4997891B27859CB00036A566 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4997891A27859CB00036A566 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 498A47F52779AD8C001AC647 /* Project object */;
 }

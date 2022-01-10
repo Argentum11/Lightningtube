@@ -1,10 +1,3 @@
-//
-//  googleRelatedServiceApp.swift
-//  googleRelatedService
-//
-//  Created by User16 on 2021/12/27.
-//
-
 import SwiftUI
 
 @main
