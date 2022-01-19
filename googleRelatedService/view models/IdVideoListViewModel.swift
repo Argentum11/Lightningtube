@@ -17,7 +17,7 @@ class IdVideoListViewModel:ObservableObject{
         case invalidURL
     }
     func fetchItems(playListId:String){
-        let finalUrl="https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId="+playListId+"&key=AIzaSyAHpLbEd-TYqa-5LDabuIGkPCHSD9Uji-c&maxResults=50"
+        let finalUrl="https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId="+playListId+"&key=AIzaSyCgJmMKX1MHibEthKRHugCjXCtybRoTN40&maxResults=50"
         if let url=URL(string: finalUrl){
             URLSession.shared.dataTask(with: url) { data, response, error in
                 if let data=data{
@@ -32,9 +32,11 @@ class IdVideoListViewModel:ObservableObject{
                         
                     }catch{
                         self.error = error
+                        print(error)
                     }
                 }else{
                     self.error = error
+                    print(error)
                 }
             }.resume()
         }

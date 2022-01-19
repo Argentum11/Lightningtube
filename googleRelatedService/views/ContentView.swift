@@ -1,5 +1,7 @@
 import SwiftUI
 struct ContentView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    @StateObject private var Text = please()
     var body: some View{
         TabView {
             searchVideoList()
@@ -11,13 +13,6 @@ struct ContentView: View {
                     Label("清單Id", systemImage: "mail.and.text.magnifyingglass")
                 }
         }
-        //IdVideoList()
-        //searchVideoList()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        .environmentObject(Text)
     }
 }

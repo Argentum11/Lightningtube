@@ -1,11 +1,17 @@
 import SwiftUI
 struct searchVideoList: View {
+    @EnvironmentObject var Textt:please
+    
     @StateObject var videoListViewModel = searchVideoListViewModel()
     @State private var searchText = ""
     var body: some View {
         NavigationView {
-            VStack{
-                Text("請輸入邀搜尋的影片標題:")
+            VStack {
+                Image("magnifier")
+                    .resizable()
+                    .frame(width: 50, height: 50, alignment: .leading)
+
+                Text("\(Textt.enter)邀搜尋的影片標題:")
                 SearchBar(searchText: $searchText)
                     .onChange(of: searchText) { newValue in
                         videoListViewModel.fetchItems(searchingFor: newValue)
